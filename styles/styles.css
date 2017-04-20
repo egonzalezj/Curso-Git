@@ -22,7 +22,7 @@ h1 {
 }
 
 h3 {
-  color: #FFFFFF;
+  color: #000000;
   font-size: 50px;
   padding-top: 15px;
   text-align: center;
@@ -40,7 +40,7 @@ p {
 }
 
 section {
-  background: #9F9F9F;
+  background: #FFFFFF;
   height: 800px;
   width: 100%;
 }
@@ -62,7 +62,7 @@ footer {
 }
 
 .boton:hover {
-  background: #A73A00;
+  background: #000000;
 }
 
 .boton a {
@@ -75,7 +75,7 @@ footer {
 }
 
 .elemento {
-  background: #FFFFFF;
+  background: #0675CA;
   float: left;
   height: 250px;
   margin: 20px;
@@ -85,6 +85,7 @@ footer {
 }
 
 .elemento p {
+  color: #FFFFFF;
   font-family: 'Lobster', cursive;
   font-size: 25px;
 }
