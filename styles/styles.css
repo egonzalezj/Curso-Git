@@ -41,7 +41,7 @@ p {
 
 section {
   background: #FFFFFF;
-  height: 800px;
+  height: 700px;
   width: 100%;
 }
 
@@ -57,7 +57,7 @@ footer {
   background: #A70000;
   border-radius: 5px;
   height: 30px;
-  margin-top: 50%;
+  margin-top: 30%;
   width: 100px;
 }
 
@@ -77,11 +77,21 @@ footer {
 .elemento {
   background: #0675CA;
   float: left;
-  height: 250px;
-  margin: 20px;
+  height: 200px;
+  margin: 15px;
   padding: 10px;
   text-align: center;
   width: 20%;
+  /* Transitions */
+  transition: height 1s;
+  -webkit-transition: height 1s;
+  -ms-transition: height 1s;
+  -moz-transition: height 1s;
+  -o-transition: height 1s;
+}
+
+.elemento:hover {
+  height: 210px;
 }
 
 .elemento p {
