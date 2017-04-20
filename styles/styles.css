@@ -52,13 +52,36 @@ footer {
   width: 100%;
 }
 
+.boton {
+  background: #A70000;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 50%;
+  width: 100px;
+}
+
+.boton:hover {
+  background: #A73A00;
+}
+
+.boton a {
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
 .elemento {
   background: #FFFFFF;
   float: left;
-  font-size: 25px;
   height: 250px;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
   text-align: center;
   width: 20%;
+}
+
+.elemento p {
+  font-size: 25px;
 }
